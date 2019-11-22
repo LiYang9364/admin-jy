@@ -1,0 +1,10 @@
+server:
+  tomcat:
+    max-threads: 300
+    accept-count: 200
+    connection-timeout: 30000
+  port: 9365
+
+spring:
+  mvc:
+    static-path-pattern: /static/**
